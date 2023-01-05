@@ -7,8 +7,6 @@ const colorSchemeBtn = document.getElementById("color-btn");
 colorSchemeBtn.addEventListener("click", function(event) {
     let currentColor = colorValue.value.replace("#","")
     currentColorScheme = colorScheme.value
-    console.log(currentColorScheme)
-    console.log(currentColor)
     event.preventDefault()
     
 
@@ -18,14 +16,13 @@ colorSchemeBtn.addEventListener("click", function(event) {
 
         for(i = 0; i < data.colors.length; i++) {
             const hexColor = data.colors[i].hex.value
-            console.log(hexColor)
+            const rectangle = document.querySelectorAll(".rectangle")
+            const hexText = document.querySelectorAll(".para")
+            rectangle[i].style.backgroundColor = hexColor
+            hexText[i].textContent = hexColor
         }
        
-        // console.log(data.colors[0].hex.value)
-        // console.log(data.colors[1].hex.value)
-        // console.log(data.colors[2].hex.value)
-        // console.log(data.colors[3].hex.value)
-        // console.log(data.colors[4].hex.value)
+       
        
         
        
