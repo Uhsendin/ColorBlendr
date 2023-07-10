@@ -1,19 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Color Scheme Generator</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>ColorBlendr</title>
+</head>
+
+<body>
+  <header>
+    <section>
+      <img src="colour.png" alt="ColorBlendr" />
+      <h1>ColorBlendr</h1>
+    </section>
+  </header>
+  <main>
     <div class="container">
       <section class="top">
         <div class="color-select-box">
@@ -31,35 +37,35 @@
               <option value="triad">Triad</option>
               <option value="quad">Quad</option>
             </select>
-            <input type="submit" value="Get Color Scheme"  id="color-btn"/>
+            <input type="submit" value="Get Color Scheme" id="color-btn" />
           </form>
         </div>
       </section>
       <section class="color-blocks-container">
-      
         <div class="color-block">
-            <div class="rectangle one"></div>
-            <p class="para">#f55a5a</p>
+          <div class="rectangle one"></div>
+          <p class="para">#f55a5a</p>
         </div>
         <div class="color-block">
-            <div class="rectangle two"></div>
-            <p class="para">#2b283a</p>
+          <div class="rectangle two"></div>
+          <p class="para">#2b283a</p>
         </div>
         <div class="color-block">
-            <div class="rectangle three"></div>
-            <p class="para">#fbf3ab</p>
+          <div class="rectangle three"></div>
+          <p class="para">#fbf3ab</p>
         </div>
         <div class="color-block">
-            <div class="rectangle four"></div>
-            <p class="para">#AAD1B6</p>
+          <div class="rectangle four"></div>
+          <p class="para">#AAD1B6</p>
         </div>
         <div class="color-block">
-            <div class="rectangle five"></div>
-            <p class="para">#A626D3</p>
+          <div class="rectangle five"></div>
+          <p class="para">#A626D3</p>
         </div>
-
       </section>
     </div>
-    <script src="index.js"></script>
-  </body>
+  </main>
+  <script src="index.js"></script>
+</body>
+
 </html>
