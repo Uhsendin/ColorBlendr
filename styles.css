@@ -35,10 +35,6 @@ img {
   justify-content: space-between;
   padding: 1rem;
 }
-header,
-.top {
-  background-color: rgba(0, 62, 193, 0.03);
-}
 
 form select,
 form input {
@@ -56,6 +52,11 @@ form input {
   border: 1px solid black;
   text-transform: capitalize;
   background: white;
+}
+
+form select {
+  text-transform: capitalize;
+  border: 1px solid black;
 }
 
 .color-blocks-container {
@@ -100,4 +101,25 @@ form input {
 
 .five {
   background: #a626d3;
+}
+
+@media (min-width: 600px) {
+  form select,
+  form input {
+    font-size: 2rem;
+  }
+  .color-select-box input {
+    height: 3.5rem;
+    width: 6rem;
+  }
+  form input {
+    margin-left: 2rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .top {
+    max-width: 690px;
+    margin: auto;
+  }
 }
