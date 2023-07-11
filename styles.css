@@ -68,6 +68,7 @@ form select {
   flex-basis: 20%;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .color-block p {
@@ -77,6 +78,7 @@ form select {
   text-align: center;
   color: #2b283a;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .rectangle {
