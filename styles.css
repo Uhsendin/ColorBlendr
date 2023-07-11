@@ -4,11 +4,100 @@
   padding: 0;
   list-style: none;
   line-height: 1.5;
-  /* color: #ffffff; */
   color: black;
   font-family: 'Inter', sans-serif;
 }
 
 html {
   font-size: 62.5%;
+}
+header section {
+  display: flex;
+  padding: 1rem;
+  font-size: 1.6rem;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+img {
+  width: 3.5rem;
+  object-fit: cover;
+}
+
+.img-wrapper,
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.top {
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+header,
+.top {
+  background-color: rgba(0, 62, 193, 0.03);
+}
+
+form select,
+form input {
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+
+form select,
+form input,
+.color-select-box input {
+  cursor: pointer;
+}
+
+form input {
+  border: 1px solid black;
+  text-transform: capitalize;
+  background: white;
+}
+
+.color-blocks-container {
+  display: flex;
+  height: 85vh;
+}
+
+.color-block {
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.color-block p {
+  padding: 3rem 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #2b283a;
+  text-transform: uppercase;
+}
+
+.rectangle {
+  height: 85%;
+}
+
+.one {
+  background: #f55a5a;
+}
+
+.two {
+  background: #2b283a;
+}
+
+.three {
+  background: #fbf3ab;
+}
+
+.four {
+  background: #aad1b6;
+}
+
+.five {
+  background: #a626d3;
 }
